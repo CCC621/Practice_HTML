@@ -5,8 +5,10 @@
 	position:relative;
 	z-index: 1;
 	/*z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
-	height: 100vh;
+	height: 50vh;
 	/*スライダー全体の縦幅を画面の高さにする*/
+	width: 50%;
+	/*スライダー全体の横幅を画面の幅にする*/
 }
 
 /*背景画像設定*/
@@ -24,8 +26,8 @@
 }
 
 .slider-item {
-    width: 100%;	/*各スライダー全体の横幅を画面の高さにする*/
-    height:100vh;	/*各スライダー全体の縦幅を画面の高さにする*/
+    width: 50%;		/*各スライダー全体の横幅を画面の高さにする*/
+    height:50vh;	/*各スライダー全体の縦幅を画面の高さにする*/
     background-repeat: no-repeat;	/*背景画像をリピートしない*/
     background-position: center;	/*背景画像の位置を中央に*/
     background-size: cover;			/*背景画像が.slider-item全体を覆い表示*/
